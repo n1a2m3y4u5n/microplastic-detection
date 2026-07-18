@@ -1,0 +1,18 @@
+# 마이크로플라스틱 검출 시스템 의존성 패키지
+
+# 웹 프레임워크
+streamlit>=1.31.0
+
+# 이미지 처리
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# 신호 처리 및 피크 분석
+scipy>=1.11.0
+
+# 시각화
+matplotlib>=3.7.0
+
+# Raspberry Pi 전용 (웹 배포 시 불필요)
+# picamera2>=0.3.12  # Raspberry Pi Camera Module 3 제어용
